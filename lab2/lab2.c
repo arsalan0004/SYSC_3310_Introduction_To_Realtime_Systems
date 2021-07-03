@@ -1,7 +1,7 @@
 /*
 lab 2 for SYSC 3310A: Intro to Real Time Systems (Summer 2021)
 
-This function uses two switches and two LEDs. One LED is a red LED and the other
+This application uses two switches and two LEDs. One LED is a red LED and the other
 is an RGB LED. When switch 'one' is clicked the selected LED changes state (on/off
 in the case of the red LED). When switch 'two' is clicked we switch to another LED
 to be 'selected'. This program's default is to have the red LED selected, and for 
@@ -16,9 +16,9 @@ To learn how to configure and control input/output pins
 The tasks carried out in this lab could be done more effectively by using interrupts 
 and a timer (instead of using a while loop) for debouncing
 
-author name: 				Arsalan Syed
+author name: 		Arsalan Syed
 author student ID: 	101169528
-date: 							May 18th, 2021
+date: 			May 18th, 2021
 */
 
 #include "msp.h"
