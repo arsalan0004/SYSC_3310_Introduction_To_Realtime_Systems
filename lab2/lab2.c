@@ -16,9 +16,9 @@ To learn how to configure and control input/output pins
 The tasks carried out in this lab could be done more effectively by using interrupts 
 and a timer (instead of using a while loop) for debouncing
 
-author name: 				Arsalan Syed
+author name: 		Arsalan Syed
 author student ID: 	101169528
-date: 							May 18th, 2021
+date: 			May 18th, 2021
 */
 
 #include "msp.h"
